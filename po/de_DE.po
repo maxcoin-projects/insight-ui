@@ -25,7 +25,7 @@ msgid ""
 "<strong>insight</strong>  is an <a href=\"http://live.insight.is/\" target="
 "\"_blank\">open-source Bitcoin blockchain explorer</a> with complete REST "
 "and websocket APIs that can be used for writing web wallets and other apps  "
-"that need more advanced blockchain queries than provided by smartcashd RPC.  "
+"that need more advanced blockchain queries than provided by maxcoind RPC.  "
 "Check out the <a href=\"https://github.com/bitpay/insight-ui\" target=\"_blank"
 "\">source code</a>."
 msgstr ""
@@ -91,11 +91,11 @@ msgstr "Serialisierte Bytes"
 
 #: public/views/includes/connection.html
 msgid ""
-"Can't connect to smartcashd to get live updates from the p2p network. (Tried "
-"connecting to smartcashd at {{host}}:{{port}} and failed.)"
+"Can't connect to maxcoind to get live updates from the p2p network. (Tried "
+"connecting to maxcoind at {{host}}:{{port}} and failed.)"
 msgstr ""
 "Es ist nicht möglich mit Bitcoind zu verbinden um live Aktualisierungen vom "
-"P2P Netzwerk zu erhalten. (Verbindungsversuch zu smartcashd an {{host}}:"
+"P2P Netzwerk zu erhalten. (Verbindungsversuch zu maxcoind an {{host}}:"
 "{{port}} ist fehlgeschlagen.)"
 
 #: public/views/includes/connection.html

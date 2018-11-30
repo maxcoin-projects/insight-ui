@@ -28,7 +28,7 @@ msgid ""
 "Check out the <a href=\"https://github.com/bitpay/insight-ui\" target=\"_blank"
 "\">source code</a>."
 msgstr ""
-"<strong>insight</strong>は、smartcashd RPCの提供するものよりも詳細なブロック"
+"<strong>insight</strong>は、maxcoind RPCの提供するものよりも詳細なブロック"
 "チェインへの問い合わせを必要とするウェブウォレットやその他のアプリを書くのに"
 "使える、完全なRESTおよびwebsocket APIを備えた<a href=\"http://live.insight."
 "is/\" target=\"_blank\">オープンソースのビットコインブロックエクスプローラ</"
@@ -104,10 +104,10 @@ msgstr "シリアライズ後の容量 (バイト)"
 
 #: public/views/includes/connection.html
 msgid ""
-"Can't connect to smartcashd to get live updates from the p2p network. (Tried "
-"connecting to smartcashd at {{host}}:{{port}} and failed.)"
+"Can't connect to maxcoind to get live updates from the p2p network. (Tried "
+"connecting to maxcoind at {{host}}:{{port}} and failed.)"
 msgstr ""
-"P2Pネットワークからライブ情報を取得するためにsmartcashdへ接続することができませ"
+"P2Pネットワークからライブ情報を取得するためにmaxcoindへ接続することができませ"
 "んでした。({{host}}:{{port}} への接続を試みましたが、失敗しました。)"
 
 #: public/views/includes/connection.html

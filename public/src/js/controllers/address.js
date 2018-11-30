@@ -16,11 +16,11 @@ angular.module('insight.address').controller('AddressController',
           beep.play();
         }
       });
-      socket.emit('subscribe', 'smartcashd/addresstxid', [addrStr]);
+      socket.emit('subscribe', 'maxcoind/addresstxid', [addrStr]);
     };
 
     var _stopSocket = function () {
-      socket.emit('unsubscribe', 'smartcashd/addresstxid', [addrStr]);
+      socket.emit('unsubscribe', 'maxcoind/addresstxid', [addrStr]);
     };
 
     socket.on('connect', function() {
