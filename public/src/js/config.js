@@ -5,7 +5,7 @@ angular.module('insight').config(function($routeProvider) {
   $routeProvider.
     when('/block/:blockHash', {
       templateUrl: 'views/block.html',
-        title: 'Maxcoin Block '
+      title: 'Maxcoin Block '
     }).
     when('/block-index/:blockHeight', {
       controller: 'BlocksController',
